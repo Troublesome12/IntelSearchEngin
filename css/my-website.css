@@ -1,0 +1,67 @@
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.input_container{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    height: 30px;
+}
+
+.input_container input {
+    height: 30px;
+    width: 200px;
+    padding: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+}
+
+
+.input_container ul {
+    width: 206px;
+    border: 1px solid #eaeaea;
+    position: relative;
+    z-index: 9;
+    background: #f3f3f3;
+    list-style: none;
+}
+
+.input_container ul li {
+    padding: 2px;
+}
+
+.input_container ul li:hover {
+    background: #eaeaea;
+}
+
+#word_list {
+    display: none;
+}
+
+#defination_lebel{
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
